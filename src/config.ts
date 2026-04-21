@@ -14,7 +14,7 @@ export const siteConfig = {
   skills: [
     "AI Workflow Automation (n8n)",
     "Python Automation & Scripting",
-    "Google Apps Script",
+    "Google Apps Script & Javascript",
     "LangChain & LangGraph",
     "Business Process Automation",
     "CRM Management (Keap)",
@@ -22,6 +22,7 @@ export const siteConfig = {
     "Advanced Google Sheets",
     "Digital Marketing Automation",
     "Workflow Optimization",
+    "Marketing Design & Canva"
   ],
   marketingCreatives: [
   {
