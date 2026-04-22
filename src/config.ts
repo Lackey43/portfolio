@@ -34,9 +34,9 @@ export const siteConfig = {
   {
     title: "Fitness Journey Landing Page",
     category: "Landing Page",
-    image: "/images/creatives/landing-page.jpg",
+    image: "images/landing.png",
     link: "https://lackey43.github.io/portfolio/landing",
-    tools: ["Astro", "TypeScript"],
+    tools: ["Astro", "Javascript"],
   },
   {
     title: "Instagram Carousel",
