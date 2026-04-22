@@ -109,14 +109,14 @@ export const siteConfig = {
       title: "Foundation: Introduction to LangGraph – Python",
       issuer: "LangChain Academy",
       date: "June 2026",
-      image:"https://cdn.filestackcontent.com/7UUyQU2vReiFHhv16DKT?policy=eyJjYWxsIjpbInJlYWQiXSwiZXhwaXJ5IjoxNzgzNjE3NjI3LCJwYXRoIjoiLyJ9&signature=3dd6d847914aca40a4c9e1d84db9061e8b28a40792402f16fe81350fe2391a0e",
+      image:"langgraph.jpg",
       link: "https://academy.langchain.com/certificates/is2wwkufja",
     },
     {
       title: "Foundation: Introduction to LangChain – Python",
       issuer: "LangChain Academy",
       date: "June 2026",
-      image:"https://cdn.filestackcontent.com/SNTh5n3SuCVzks9idpw8?policy=eyJjYWxsIjpbInJlYWQiXSwiZXhwaXJ5IjoxNzgzNjE3Njk0LCJwYXRoIjoiLyJ9&signature=be67fa1be82d626c9fd2554963a33bad16c956802d9462685e4981d70dea6910",
+      image:"langchain.jpg",
       link: "https://academy.langchain.com/certificates/82s1v5yebv",
     },
     {
