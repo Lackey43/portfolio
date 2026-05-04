@@ -29,12 +29,18 @@ const hasCertificates =
               {siteConfig.certifications.map((cert) => (
                 <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300">
 
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={cert.image}
                     alt={cert.title}
-                    class="w-full h-56 object-cover"
+                    class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
+                </a>
 
                   <div class="p-5">
                     <h3 class="text-lg font-semibold text-gray-900">

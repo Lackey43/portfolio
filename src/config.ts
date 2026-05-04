@@ -106,33 +106,38 @@ export const siteConfig = {
 
   certifications: [
     {
-      name: "Foundation: Introduction to LangGraph – Python",
+      title: "Foundation: Introduction to LangGraph – Python",
       issuer: "LangChain Academy",
       date: "June 2026",
+      image:"",
       link: "https://your-certificate-link.com/langgraph",
     },
     {
-      name: "Foundation: Introduction to LangChain – Python",
+      title: "Foundation: Introduction to LangChain – Python",
       issuer: "LangChain Academy",
       date: "June 2026",
+      image:"",
       link: "https://your-certificate-link.com/langchain",
     },
     {
-      name: "Complete Python Bootcamp",
+      title: "Complete Python Bootcamp",
       issuer: "Udemy",
       date: "August 2020",
+      image:"",
       link: "https://your-certificate-link.com/python",
     },
     {
-      name: "Introduction to Software Engineering",
+      title: "Introduction to Software Engineering",
       issuer: "IBM",
       date: "July 2025",
+      image:"",
       link: "https://your-certificate-link.com/software-engineering",
     },
     {
-      name: "Introduction to Agile Development and Scrum",
+      title: "Introduction to Agile Development and Scrum",
       issuer: "IBM",
       date: "July 2025",
+      image:"",
       link: "https://your-certificate-link.com/agile",
     },
   ],
