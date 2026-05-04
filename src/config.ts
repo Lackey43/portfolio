@@ -23,6 +23,36 @@ export const siteConfig = {
     "Digital Marketing Automation",
     "Workflow Optimization",
   ],
+  marketingCreatives: [
+  {
+    title: "High-Converting Lead Magnet",
+    category: "Lead Magnet",
+    image: "/images/creatives/lead-magnet.jpg",
+    link: "https://drive.google.com/...",
+    tools: ["Canva", "ChatGPT"],
+  },
+  {
+    title: "Fitness Landing Page",
+    category: "Landing Page",
+    image: "/images/creatives/landing-page.jpg",
+    link: "https://example.com",
+    tools: ["GoHighLevel", "HTML/CSS"],
+  },
+  {
+    title: "Instagram Carousel",
+    category: "Social Media Post",
+    image: "/images/creatives/carousel.jpg",
+    link: "https://drive.google.com/...",
+    tools: ["Canva"],
+  },
+  {
+    title: "Facebook Reel",
+    category: "Social Media Video",
+    image: "/images/creatives/reel-thumbnail.jpg",
+    link: "https://drive.google.com/...",
+    tools: ["CapCut"],
+  },
+],
 
   projects: [
     {

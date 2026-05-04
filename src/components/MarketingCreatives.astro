@@ -1,0 +1,87 @@
+---
+import { siteConfig } from "../config";
+
+const hasCreatives =
+  siteConfig.marketingCreatives &&
+  siteConfig.marketingCreatives.length > 0;
+---
+
+{
+  hasCreatives && (
+    <section id="marketing-creatives" class="p-8 sm:p-12 md:p-16 lg:p-24">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+
+        <div class="lg:col-span-4">
+          <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+            Marketing Creatives
+          </h2>
+
+          <div
+            class="w-[75px] h-[5px] mt-2 rounded-full"
+            style={`background-color:${siteConfig.accentColor}`}
+          />
+        </div>
+
+        <div class="lg:col-span-8">
+
+          <div class="grid sm:grid-cols-2 gap-8">
+
+            {siteConfig.marketingCreatives.map((creative) => (
+
+              <a
+                href={creative.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              >
+
+                <div class="overflow-hidden">
+                  <img
+                    src={creative.image}
+                    alt={creative.title}
+                    class="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="p-6">
+
+                  <p
+                    class="text-sm font-medium"
+                    style={`color:${siteConfig.accentColor}`}
+                  >
+                    {creative.category}
+                  </p>
+
+                  <h3 class="mt-2 text-xl font-bold text-gray-900">
+                    {creative.title}
+                  </h3>
+
+                  <div class="flex flex-wrap gap-2 mt-4">
+
+                    {creative.tools.map((tool) => (
+
+                      <span class="px-3 py-1 rounded-lg bg-gray-900 text-white text-sm">
+
+                        {tool}
+
+                      </span>
+
+                    ))}
+
+                  </div>
+
+                </div>
+
+              </a>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  )
+}
