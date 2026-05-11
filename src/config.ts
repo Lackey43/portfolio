@@ -33,7 +33,7 @@ export const siteConfig = {
     tools: ["Canva", "AI:Grok"],
   },
   {
-    title: "Landing Page",
+    title: "Gym Membership Landing Page",
     category: "Landing Page",
     image: "images/landing.png",
     link: "https://lackey43.github.io/portfolio/landing",
