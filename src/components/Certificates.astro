@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { siteConfig } from "../config";
+---
+
+<Layout title="Certificates">
+  <section class="max-w-4xl mx-auto py-16">
+    <h1 class="text-4xl font-bold mb-8">Certificates</h1>
+
+    <div class="space-y-6">
+      {siteConfig.certifications.map((cert) => (
+        <div class="border rounded-lg p-6">
+          <h2 class="text-xl font-semibold">{cert.name}</h2>
+
+          <p class="text-gray-500">
+            {cert.issuer} • {cert.date}
+          </p>
+
+          <a
+            href={cert.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-600 hover:underline"
+          >
+            View Certificate →
+          </a>
+        </div>
+      ))}
+    </div>
+  </section>
+</Layout>
