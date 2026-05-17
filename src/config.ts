@@ -30,14 +30,14 @@ export const siteConfig = {
     category: "Lead Magnet",
     image: "/images/creatives/lead-magnet.jpg",
     link: "https://drive.google.com/...",
-    tools: ["Canva", "ChatGPT"],
+    tools: ["Canva", "AI:Grok"],
   },
   {
-    title: "Fitness Journey Landing Page",
+    title: "Landing Page",
     category: "Landing Page",
     image: "images/landing.png",
     link: "https://lackey43.github.io/portfolio/landing",
-    tools: ["Astro", "Javascript"],
+    tools: ["Astro", "Javascript", "AI:Grok"],
   },
   {
     title: "Instagram Carousel",
