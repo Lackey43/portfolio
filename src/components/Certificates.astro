@@ -7,7 +7,9 @@ const hasCertificates = siteConfig.certifications && siteConfig.certifications.l
 {
   hasCertificates && (
     <section id="certificates" class="p-8 sm:p-12 md:p-16 lg:p-24">
-      <div class="mb-12">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+
+        <div class="lg:col-span-4">
         <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
           Certificates
         </h2>
@@ -17,9 +19,9 @@ const hasCertificates = siteConfig.certifications && siteConfig.certifications.l
               style={`background-color: ${siteConfig.accentColor}`}
             />
           </div>
-
+          <div class="lg:col-span-8">
           {/* Right Content */}
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-2 gap-8">
               {siteConfig.certifications.map((cert) => (
                 <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300">
 
@@ -56,6 +58,7 @@ const hasCertificates = siteConfig.certifications && siteConfig.certifications.l
                 </div>
               ))}
             </div>
+          </div>
           </div>
     </section>
   )
