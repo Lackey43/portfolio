@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Claude Daigan",
   title: "Automation Virtual Assistant",
   description: "Automation-focused Virtual Assistant specializing in AI workflows, n8n, Python, and business process optimization",
-  accentColor: "#1d4ed8",
+  accentColor: "#2563eb",
   social: {
     email: "claude_daigan@protonmail.com",
     linkedin: "https://linkedin.com/in/claude-lester-d-a84558288/",
