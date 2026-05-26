@@ -33,10 +33,13 @@ import { siteConfig } from "../config";
       <!-- Right Side: Round Profile Picture -->
     <div class="flex justify-center md:justify-end">
      <img
-       src="https://picsum.photos/400"
-       alt="Test"
-       class="w-64 h-64 rounded-full object-cover"
-     />
+      src="/images/profile.png"
+      alt={siteConfig.name}
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-8 border-white shadow-2xl ring-4 ring-[var(--accent-color)] transition-all duration-500 hover:scale-105"
+      />
     </div>
 
     </div>
