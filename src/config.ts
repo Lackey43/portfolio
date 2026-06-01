@@ -81,6 +81,16 @@ export const siteConfig = {
         "Supported daily HR administrative operations",
       ],
     },
+      {
+      company: "KEITECH Educational Foundation, Inc.",
+      title: "PROCUREMENT OFFICER",
+      dateRange: "July 2019 - June 2020",
+      bullets: [
+        "Improved inventory tracking accuracy.",
+        "Supported cost-effective purchasing.",
+        "Maintained uninterrupted supply availability.",
+      ],
+    },
   ],
 
   education: [
@@ -95,10 +105,35 @@ export const siteConfig = {
   ],
 
   certifications: [
-    "Foundation: Introduction to LangGraph – Python (LangChain Academy, June 2026)",
-    "Foundation: Introduction to LangChain – Python (LangChain Academy, June 2026)",
-    "Complete Python Bootcamp (Udemy, August 2020)",
-    "Introduction to Software Engineering (IBM, July 2025)",
-    "Introduction to Agile Development and Scrum (IBM, July 2025)",
+    {
+      name: "Foundation: Introduction to LangGraph – Python",
+      issuer: "LangChain Academy",
+      date: "June 2026",
+      link: "https://your-certificate-link.com/langgraph",
+    },
+    {
+      name: "Foundation: Introduction to LangChain – Python",
+      issuer: "LangChain Academy",
+      date: "June 2026",
+      link: "https://your-certificate-link.com/langchain",
+    },
+    {
+      name: "Complete Python Bootcamp",
+      issuer: "Udemy",
+      date: "August 2020",
+      link: "https://your-certificate-link.com/python",
+    },
+    {
+      name: "Introduction to Software Engineering",
+      issuer: "IBM",
+      date: "July 2025",
+      link: "https://your-certificate-link.com/software-engineering",
+    },
+    {
+      name: "Introduction to Agile Development and Scrum",
+      issuer: "IBM",
+      date: "July 2025",
+      link: "https://your-certificate-link.com/agile",
+    },
   ],
 };
