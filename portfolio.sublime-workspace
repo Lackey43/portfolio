@@ -1,0 +1,515 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"che",
+				"checkpointer"
+			],
+			[
+				"in",
+				"InMemorySaver"
+			],
+			[
+				"memo",
+				"InMemorySaver"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"model",
+				"init_chat_model"
+			],
+			[
+				"mo",
+				"chat_models"
+			],
+			[
+				"lang",
+				"langchain_core"
+			],
+			[
+				"langg",
+				"langgraph"
+			],
+			[
+				"comp",
+				"compile(checkpointer, cache, store, interrupt_before, interrupt_after, debug, name, transformers)"
+			],
+			[
+				"en",
+				"END"
+			],
+			[
+				"add",
+				"add_edge(start_key, end_key)"
+			],
+			[
+				"start",
+				"START"
+			],
+			[
+				"edge",
+				"add_edge(start_key, end_key)"
+			],
+			[
+				"me",
+				"MessagesState"
+			],
+			[
+				"state",
+				"StateGraph"
+			],
+			[
+				"upda",
+				"updated_name"
+			],
+			[
+				"update",
+				"updated_name"
+			],
+			[
+				"ai",
+				"AIMessage"
+			],
+			[
+				"data",
+				"data_content"
+			],
+			[
+				"a",
+				"ensure_ascii="
+			],
+			[
+				"con",
+				"content_list"
+			],
+			[
+				"rea",
+				"readall()"
+			],
+			[
+				"du",
+				"dump"
+			],
+			[
+				"json",
+				"json_format"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"tav",
+				"TavilyClient"
+			],
+			[
+				"System",
+				"SystemMessage"
+			],
+			[
+				"syst",
+				"SystemMessage"
+			],
+			[
+				"cre",
+				"create_agent"
+			],
+			[
+				"MOD",
+				"MODEL_FLASH_LITE"
+			],
+			[
+				"open",
+				"OPENROUTER_API_KEY"
+			],
+			[
+				"MODE",
+				"MODEL_FLASH_LITE"
+			],
+			[
+				"MO",
+				"MODEL_FLASH"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"crew",
+				"crewai_tools"
+			],
+			[
+				"Mod",
+				"MODEL_FLASH_LITE"
+			],
+			[
+				"Mo",
+				"MODEL_FLASH_LITE"
+			],
+			[
+				"ino",
+				"inputDictionary"
+			],
+			[
+				"input",
+				"inputDictionary"
+			],
+			[
+				"env",
+				"dotenv"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/langchainCourse.sublime-project",
+			"settings":
+			{
+				"buffer_size": 350,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 594.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations"
+	],
+	"file_history":
+	[
+		"/C/Users/Claude_Home/Desktop/devportfolio/.github/deploy.yml",
+		"/C/Users/Claude_Home/Desktop/devportfolio/astro.config.mjs",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/test.py",
+		"/C/Users/Claude_Home/Desktop/devportfolio/.git/MERGE_MSG",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/Projects/Resume Builder/main.py",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/terminus_python.sublime-build",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/Projects/personalChef/test.py",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/Projects/WeddingPlanner/output.json",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/Projects/WeddingPlanner/tools.py",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/pyproject.toml",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/uv.lock",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/Projects/WeddingPlanner/openjason.py",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/openjson.py",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/.env",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/output.json",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/output.txt",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/notebooks/module-1/1.1_foundational_models.ipynb",
+		"/C/Users/Claude_Home/Desktop/CrewAI/.env",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/python3LangChain.sublime-build",
+		"/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/langchainCourse.sublime-project",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/Python3CrewAI.sublime-build",
+		"/C/Users/Claude_Home/Desktop/CrewAI/FinancialCew/agents.yaml",
+		"/C/Users/Claude_Home/Desktop/CrewAI/FinancialCew/tasks.yaml",
+		"/C/Users/Claude_Home/Desktop/CrewAI/FinancialCew/crew.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/FinancialCew/log.md.txt",
+		"/C/Users/Claude_Home/Desktop/CrewAI/ChatSupport/models.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/ChatSupport/crew.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/ChatSupport/.env",
+		"/C/Users/Claude_Home/Desktop/CrewAI/CrewAI.sublime-project",
+		"/C/Users/Claude_Home/Desktop/CrewAI/test.py",
+		"/C/Users/Claude_Home/.crewAIvenv3/Lib/site-packages/crewai/llm.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/ChatSupport/main.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/crew.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/outputs/blog_Bicycles_and_20260619_231824.md",
+		"/C/Users/Claude_Home/.crewAIvenv3/Lib/site-packages/crewai/agent/core.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/outputs/blog_Bicycles_and_20260619_222502.md",
+		"/C/Users/Claude_Home/Desktop/CrewAI/outputs/blog_Bicycles_and_their_kinds_20260619_215636.md",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/report.md",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/src/job_application/main.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/src/job_application/crew.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/src/job_application/config/agents.yaml",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/.env",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/AGENTS.md",
+		"/C/Users/Claude_Home/Desktop/CrewAI/job_application/src/job_application/__init__.py",
+		"/C/Users/Claude_Home/Desktop/CrewAI/OpenAIAPIKey.py",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/LSP-pylsp.sublime-settings",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/LSP-pylsp/LSP-pylsp.sublime-settings",
+		"/C/Users/Claude_Home/Desktop/test.py",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/sublime_jedi.sublime-settings",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/Flake8Lint.sublime-settings",
+		"/C/Users/Claude_Home/AppData/Roaming/Sublime Text/Packages/User/Python14.sublime-build"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 155.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"]\n",
+			"gent = create_agent(model=model, \n\t",
+			"tool_calls",
+			"tool",
+			"web_search",
+			"verbose: true",
+			"YourCrewName",
+			"\"",
+			",",
+			"=",
+			"max_tokens",
+			"prefer_upload",
+			"reasoning_effort",
+			"openai",
+			"OPENAI_API_KEY",
+			"llm "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"FinancialCrew",
+			"",
+			":"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/langchainCourse.sublime-project",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///C:/Users/Claude_Home/Desktop/langchain_foundations/lca-lc-foundations/langchainCourse.sublime-project",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.Terminus Build Results":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 164.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/User/terminus_python.sublime-build",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
