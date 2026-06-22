@@ -46,11 +46,11 @@ export const siteConfig = {
     tools: ["Canva"],
   },
   {
-    title: "Facebook Reel",
+    title: "Instagram Reel",
     category: "Social Media Video",
-    image: "/images/creatives/reel-thumbnail.jpg",
-    link: "https://drive.google.com/...",
-    tools: ["CapCut"],
+    image: "images/fitness-thumbnail.png",
+    link: "https://drive.google.com/file/d/1fYcQnOAEkww5JgqCM5FOqO79k5SfdApG/view?usp=sharing",
+    tools: ["Canva"],
   },
 ],
 
