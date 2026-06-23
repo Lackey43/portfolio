@@ -35,7 +35,7 @@ export const siteConfig = {
     title: "Fitness Landing Page",
     category: "Landing Page",
     image: "/images/creatives/landing-page.jpg",
-    link: "https://example.com",
+    link: "../pages/landing",
     tools: ["GoHighLevel", "HTML/CSS"],
   },
   {
