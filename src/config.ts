@@ -41,8 +41,8 @@ export const siteConfig = {
   {
     title: "Instagram Carousel",
     category: "Social Media Post",
-    image: "/images/creatives/carousel.jpg",
-    link: "https://drive.google.com/...",
+    image: "images/carousel.png",
+    link: "https://drive.google.com/drive/folders/1Qf4Q8whp9S-uWxH1pbh4yLB0_0_vHfrz?usp=sharing",
     tools: ["Canva"],
   },
   {
