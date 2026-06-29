@@ -28,8 +28,8 @@ export const siteConfig = {
   {
     title: "High-Converting Lead Magnet",
     category: "Lead Magnet",
-    image: "/images/creatives/lead-magnet.jpg",
-    link: "https://drive.google.com/...",
+    image: "leadMagnet.png",
+    link: "https://drive.google.com/file/d/14l-lliNpahpHTSRXKpLx66CrvfI4VhFO/view?usp=sharing",
     tools: ["Canva", "AI:Grok"],
   },
   {
