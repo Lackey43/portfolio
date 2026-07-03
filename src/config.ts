@@ -32,11 +32,11 @@ export const siteConfig = {
     tools: ["Canva", "ChatGPT"],
   },
   {
-    title: "Fitness Landing Page",
+    title: "Fitness Journey Landing Page",
     category: "Landing Page",
     image: "/images/creatives/landing-page.jpg",
-    link: "../pages/landing",
-    tools: ["GoHighLevel", "HTML/CSS"],
+    link: "https://lackey43.github.io/portfolio/landing",
+    tools: ["Astro", "TypeScript"],
   },
   {
     title: "Instagram Carousel",

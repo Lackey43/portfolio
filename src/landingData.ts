@@ -1,10 +1,10 @@
 export const siteData = {
-  name: "FitZone Gym",
+  name: "Your Fitness Journey",
   tagline: "Transform Your Body, Transform Your Life",
   description: "Your premier destination for fitness and wellness",
   address: "123 Fitness Street, Health City, HC 12345",
   phone: "+1 (555) 123-4567",
-  email: "info@fitzonegym.com",
+  email: "info@yourfitnessjourney.com",
   social: {
     facebook: "https://facebook.com",
     instagram: "https://instagram.com",
