@@ -57,10 +57,10 @@ export const siteConfig = {
 
   projects: [
     {
-      name: "AI Marketing Workflow Automation",
-      description: "Automated marketing workflows using n8n for Outsourced Doers, improving social media consistency and streamlining repetitive business processes.",
-      link: "#", // Add actual link if available
-      skills: ["n8n", "Digital Marketing"],
+      name: "AI: Business Operations Assisntant",
+      description: "Multi-agent AI business automation system built with LangGraph. Portfolio project for AI Workflow Automation, LangChain, and Google Workspace integrations.",
+      link: "https://claudai.streamlit.app/", // Add actual link if available
+      skills: ["LangGraph", "Python", "Google Workspace" , "Agentic Workflow Automation"],
     },
     {
       name: "HR Data Automation System",
