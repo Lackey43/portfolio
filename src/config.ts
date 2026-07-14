@@ -57,10 +57,10 @@ export const siteConfig = {
 
   projects: [
     {
-      name: "AI: Business Operations Assisntant",
-      description: "Multi-agent AI business automation system built with LangGraph. Portfolio project for AI Workflow Automation, LangChain, and Google Workspace integrations.",
-      link: "https://claudai.streamlit.app/", // Add actual link if available
-      skills: ["LangGraph", "Python", "Google Workspace" , "Agentic Workflow Automation"],
+      name: "AI Chatbot with RAG (Retrieval Augmented Generation)",
+      description: "Perfect for customer support, internal knowledge bases, employee training, document Q&A, and any domain-specific chatbot that needs accurate, source-grounded responses.",
+      link: "https://lotr-rag-chatbot-claudai.streamlit.app/", // Add actual link if available
+      skills: ["Langchain", "Python", "Streamlit" , "Agentic Workflow Automation", "Postgresql"],
     },
     {
       name: "HR Data Automation System",
