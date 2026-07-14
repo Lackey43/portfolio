@@ -62,7 +62,7 @@ export const siteConfig = {
       link: "https://lotr-rag-chatbot-claudai.streamlit.app/", // Add actual link if available
       skills: [
         "Langchain", "Python", "Streamlit" , "Retrieval-Augmented Generation", "Postgresql",
-        "AI Embeddings", ""
+        "AI Embeddings",
       ],
     },
     {
