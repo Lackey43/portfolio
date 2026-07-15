@@ -58,7 +58,7 @@ export const siteConfig = {
   projects: [
     {
       name: "AI Chatbot with RAG",
-      description: "Uses Lord of the rings books as retrieval-augmented source as an example.Perfect for customer support, internal knowledge bases, employee training, document Q&A, and any domain-specific chatbot that needs accurate, source-grounded responses.",
+      description: "A powerful RAG-powered AI chatbot that retrieves accurate information from uploaded documents. Demonstrated using the full Lord of the Rings book collection as the knowledge base. Ideal for customer support, internal knowledge bases, employee training, and domain-specific Q&A systems.",
 
       links: [
       { name: "View Chatbot Demo", url: "https://lotr-rag-chatbot-claudai.streamlit.app/" },
