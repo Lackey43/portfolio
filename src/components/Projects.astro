@@ -76,7 +76,10 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
                         >
                           
-                          <div set:html={marked.parse(project.description)} />
+                          <div 
+                            set:html={marked.parse(project.description)} 
+                            class="text-base sm:text-lg text-gray-600 leading-relaxed max-w-prose pr-8 sm:pr-12 md:pr-16"
+                          />
                           
                         </p>
 
