@@ -66,10 +66,18 @@ export const siteConfig = {
       ],
     },
     {
-      name: "HR Data Automation System",
-      description: "Built Python scripts to automate HR data entry and employee onboarding processes at Qualfon, significantly improving data accuracy.",
-      link: "#",
-      skills: ["Python", "Google Apps Script"],
+      name: "AI-Powered HR Applicant Screening System",
+      description: 
+      `An automated recruitment solution that streamlines the initial applicant screening process. 
+
+      Candidates submit their name, email, and resume through a simple form. A self-hosted **n8n** workflow (running on Oracle Cloud via Docker) intelligently parses the resume using **Google Gemini**, extracts key information, and automatically updates a **Google Sheets** dashboard with a structured summary and an AI-generated suitability score (1–10) based on predefined job requirements.
+
+        This system significantly reduces manual HR workload, improves screening consistency, and enables faster, data-driven hiring decisions.
+
+        [View Applicant Form](https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e)  
+        [View Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/)`,
+      link: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/",
+      skills: ["n8n", "Google Sheets", "Docker", "AI:Gemini"],
     },
     // Add more projects here as needed
   ],
