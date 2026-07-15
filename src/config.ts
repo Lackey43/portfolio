@@ -76,7 +76,10 @@ export const siteConfig = {
 
         [View Applicant Form](https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e)  
         [View Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/)`,
-      link: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/",
+      links: [
+        { name: "View Applicant Form", url: "https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e" },
+        { name: "View Google Sheets", url: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/" },
+      ],
       skills: ["n8n", "Google Sheets", "Docker", "AI:Gemini"],
     },
     // Add more projects here as needed
