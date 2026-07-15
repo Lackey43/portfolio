@@ -1,6 +1,6 @@
 ---
 import { siteConfig } from "../config";
-import Markdown from '@astrojs/markdown-component';
+import { marked } from 'marked';
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 ---
 
@@ -17,7 +17,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
               class="w-[75px] h-[5px] mt-2 rounded-full"
               style={`background-color: ${siteConfig.accentColor}`}
             />
-          </div>
+          </div>  
 
           <div class="lg:col-span-8">
             <div class="space-y-8">
@@ -75,9 +75,9 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         <p
                           class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
                         >
-                          <Markdown>
-                          {project.description}
-                          </Markdown>
+                          
+                          <div set:html={marked.parse(project.description)} />
+                          
                         </p>
 
                         {project.skills && project.skills.length > 0 && (

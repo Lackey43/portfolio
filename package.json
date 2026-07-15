@@ -13,6 +13,6 @@
     "astro": "^5.12.3",
     "tailwindcss": "^4.1.11",
     "remixicon": "^4.6.0",
-    "@astrojs/markdown-component": "^1.0.0"
+    "marked": "^1.0.0"
   }
 }
