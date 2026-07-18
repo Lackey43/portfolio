@@ -176,6 +176,14 @@ export const siteConfig = {
       link: "https://udemy-certificate.s3.amazonaws.com/image/UC-a6c68572-105c-4369-b609-f787e7283756.jpg",
     },
     {
+      title: "Cybersecurty",
+      issuer: "Zsecurity",
+      date: "May 2020",
+      image:"zsecurity.png",
+      link: "zsecurity.png",
+    },
+  
+    {
       title: "Introduction to Software Engineering",
       issuer: "IBM",
       date: "July 2025",
