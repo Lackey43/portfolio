@@ -78,7 +78,15 @@ export const siteConfig = {
       ],
       skills: ["n8n", "Google Sheets", "Docker", "AI:Gemini"],
     },
-    // Add more projects here as needed
+    {
+      name: "AI HR Resume Analyzer",
+      description: 
+      "HR AI Resume Fit Analyzer is an intelligent web application that automates resume screening and job-fit evaluation. Users upload a PDF resume, enter a job role and description, and the system instantly delivers a 1–10 qualification score plus detailed, professional feedback on strengths, gaps, and improvement recommendations.",
+      links: [
+        { name: "View Demo", url: "https://lackey43.duckdns.org/streamlit/" },
+      ],
+      skills: ["Langgraph", "Streamlit", "Docker", "AI:Gemini"],
+    },
   ],
 
   experience: [
