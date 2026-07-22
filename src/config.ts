@@ -48,7 +48,7 @@ in fast-paced environments.`,
     title: "Instagram Carousel",
     category: "Social Media Post",
     image: "images/carousel.png",
-    link: "https://drive.google.com/drive/folders/1Qf4Q8whp9S-uWxH1pbh4yLB0_0_vHfrz?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1j_Ehm19tvR69vSvV1L9IvAPVDDTRtFsq?usp=sharing",
     tools: ["Canva"],
   },
   {
