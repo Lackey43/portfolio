@@ -169,6 +169,13 @@ export const siteConfig = {
       link: "https://academy.langchain.com/certificates/82s1v5yebv",
     },
     {
+      title: "Foundation: Introduction to Deep Agents",
+      issuer: "LangChain Academy",
+      datie: "July 2026",
+      image:"deepagents.png",
+      link: "https://academy.langchain.com/certificates/81fsps1yrc"",
+    },
+    {
       title: "Complete Python Bootcamp",
       issuer: "Udemy",
       date: "August 2020",
