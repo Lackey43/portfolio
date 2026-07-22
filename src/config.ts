@@ -9,7 +9,12 @@ export const siteConfig = {
     twitter: "", // Leave empty if none
     github: "https://github.com/Lackey43", // Update with your actual GitHub if different
   },
-  aboutMe: `Automation-focused Virtual Assistant with professional experience in business operations, digital marketing, human resources, and administrative support. Skilled in workflow automation using n8n, Zapier, Python, and Google Apps Script to streamline business processes and improve operational efficiency.`,
+  aboutMe: `Automation-focused Virtual Assistant with experience in business operations, digital marketing, human resources, and \
+administrative support. Specializes in designing AI-powered workflow automations using n8n, Python, Google Apps Script, LangChain, \
+LangGraph, and DeepAgents to streamline processes, eliminate repetitive tasks, and improve operational efficiency. Proficient in \
+Google Workspace, CRM systems, email marketing, social media management, and data management. Recognized for quickly learning new \
+technologies, optimizing business workflows, and supporting remote teams with reliable, detail-oriented, and results-driven execution \
+in fast-paced environments.`,
 
   skills: [
     "AI Workflow Automation (n8n)",
@@ -173,7 +178,7 @@ export const siteConfig = {
       issuer: "LangChain Academy",
       date: "July 2026",
       image:"deepagents.png",
-      link: "https://academy.langchain.com/certificates/81fsps1yrc",
+      link: "https://academy.langchain.com/certificates/81fsps1yrc"",
     },
     {
       title: "Complete Python Bootcamp",
