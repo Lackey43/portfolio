@@ -173,7 +173,7 @@ export const siteConfig = {
       issuer: "LangChain Academy",
       date: "July 2026",
       image:"deepagents.png",
-      link: "https://academy.langchain.com/certificates/81fsps1yrc"",
+      link: "https://academy.langchain.com/certificates/81fsps1yrc",
     },
     {
       title: "Complete Python Bootcamp",
