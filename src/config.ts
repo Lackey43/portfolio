@@ -62,6 +62,19 @@ in fast-paced environments.`,
 
   projects: [
     {
+      name: "Marketing AI Assistant",
+      description: "An AI-powered outreach automation tool that researches businesses and generates personalized marketing emails in minutes. Simply provide a business website URL (or company information), and the assistant automatically analyzes the company's online presence, identifies key insights, and creates a tailored outreach email. For demonstration purposes, the generated email is sent directly to the email address you provide, allowing you to review the final result exactly as a prospective client would receive it.",
+
+      links: [
+      { name: "View Chatbot Demo", url: "https://lackey43.duckdns.org/streamlit2/" },
+      ], 
+      skills: [
+        "Deep Agents", "Python", "Streamlit" ,"Docker", "Email Automation", "Web Search", "Postgresql",
+        "AI:Gemini",
+      ],
+    },
+    
+    {
       name: "AI Chatbot with RAG",
       description: "A powerful RAG-powered AI chatbot that retrieves accurate information from uploaded documents. Demonstrated using the full Lord of the Rings book collection as the knowledge base. Ideal for customer support, internal knowledge bases, employee training, and domain-specific Q&A systems.",
 
