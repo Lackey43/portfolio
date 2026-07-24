@@ -70,7 +70,7 @@ in fast-paced environments.`,
       ], 
       skills: [
         "Deep Agents", "Python", "Streamlit" ,"Docker", "Email Automation", "Web Search", "Postgresql",
-        "AI:Gemini",
+        "Google Gemini API",
       ],
     },
     
@@ -94,7 +94,7 @@ in fast-paced environments.`,
         { name: "View Applicant Form", url: "https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e" },
         { name: "View Google Sheets", url: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/" },
       ],
-      skills: ["n8n", "Google Sheets", "Docker", "AI:Gemini"],
+      skills: ["n8n", "Google Sheets", "Docker", "Google Gemini API"],
     },
     {
       name: "AI Resume Screening & Candidate Evaluation Platform",
