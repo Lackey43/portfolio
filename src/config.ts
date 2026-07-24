@@ -45,6 +45,13 @@ in fast-paced environments.`,
     tools: ["Astro", "Javascript", "AI:Grok"],
   },
   {
+    title: "Client Testimonial",
+    category: "Social Media Post",
+    image: "images/testimonial.png",
+    link: "https://drive.google.com/file/d/1MLHLiOV6VQxASnlsX688Qjp-UxXE7tr6/view?usp=sharing",
+    tools: ["Canva"],
+  },
+  {
     title: "Instagram Carousel",
     category: "Social Media Post",
     image: "images/carousel.png",
