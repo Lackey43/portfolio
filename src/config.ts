@@ -115,9 +115,9 @@ in fast-paced environments.`,
       skills: ["Google Apps Script", "Google Sheets", "JavaScript" ],
     },
     {
-      name: "Employee & Trainee Directory Search Tool",
+      name: "Trainee Directory Search Tool",
       description: 
-      "Built a real-time search utility using advanced Google Sheets formulas that allows users to instantly locate employee or trainee records by name or email. Designed to provide fast lookups from a centralized merged directory without requiring manual filtering.",
+      "Built a real-time search utility using advanced Google Sheets formulas that allows users to instantly locate  trainee records by name or email. Designed to provide fast lookups from a centralized merged directory without requiring manual filtering.",
       links: [
         { name: "View Sheet", url: "https://docs.google.com/spreadsheets/d/1J2etGF_7svanp9Xb_rmvJlS0rl4CcVSUnkS29Y0Y0Ac/edit?gid=1666440326#gid=1666440326" },
       ],
