@@ -58,6 +58,20 @@ in fast-paced environments.`,
     link: "https://drive.google.com/file/d/1fYcQnOAEkww5JgqCM5FOqO79k5SfdApG/view?usp=sharing",
     tools: ["Canva"],
   },
+  {
+    title: "Instagram Reel",
+    category: "Social Media Video",
+    image: "images/ballerina.png",
+    link: "https://drive.google.com/file/d/1I2CEQD0Yneedtxhhercg880Mhcg8x5Ic/view?usp=sharing",
+    tools: ["Canva"],
+  },
+  {
+    title: "Facebook Reel",
+    category: "Social Media Video",
+    image: "images/birthday.png",
+    link: "https://drive.google.com/file/d/1NA669ogItX2VomyU-VpUKtlDBSBqG0j9/view?usp=sharing",
+    tools: ["Canva"],
+  },
 ],
 
   projects: [
