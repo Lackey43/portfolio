@@ -97,13 +97,13 @@ in fast-paced environments.`,
       skills: ["n8n", "Google Sheets", "Docker", "AI:Gemini"],
     },
     {
-      name: "AI HR Resume Analyzer",
+      name: "AI Resume Screening & Candidate Evaluation Platform",
       description: 
-      "HR AI Resume Fit Analyzer is an intelligent web application that automates resume screening and job-fit evaluation. Users upload a PDF resume, enter a job role and description, and the system instantly delivers a 1–10 qualification score plus detailed, professional feedback on strengths, gaps, and improvement recommendations.",
+      "An AI-powered resume screening platform that automates candidate evaluation against job requirements. Users upload a resume and provide a target job description, and the system analyzes qualifications using an LLM to generate a compatibility score, identify key strengths and skill gaps, and deliver actionable recommendations. Built with LangGraph to orchestrate the evaluation workflow, providing recruiters with faster, more consistent, and data-driven hiring insights.",
       links: [
         { name: "View Demo", url: "https://lackey43.duckdns.org/streamlit/" },
       ],
-      skills: ["Langgraph", "Streamlit", "Docker", "AI:Gemini"],
+      skills: ["Langgraph", "Streamlit", "Docker", "Google Gemini API"],
     },
     {
       name: "Trainee Directory Aggregation System",
@@ -149,6 +149,15 @@ in fast-paced environments.`,
         { name: "View Sheet", url: "https://docs.google.com/spreadsheets/d/1J2etGF_7svanp9Xb_rmvJlS0rl4CcVSUnkS29Y0Y0Ac/edit?gid=1555198795#gid=1555198795&range=C2" },
       ],
       skills: ["Google Apps Script", "Google Sheets", "Gmail API" ],
+    },
+    {
+      name: "Training Management & Performance Tracking System",
+      description: 
+      "Designed and developed a comprehensive Google Sheets-based training management system for Outsourced Doers (now Doneverse) to streamline trainee monitoring and reporting. The solution includes a centralized directory with summary views across all training sheets, automated attendance tracking powered by Google Apps Script, pop quiz score monitoring, trainee performance leaderboards, and a project tracking module that consolidates assessment results. By centralizing training data and automating reporting workflows, the system significantly improved visibility into trainee progress and reduced administrative effort.",
+      links: [
+        { name: "View Sheet", url: "https://docs.google.com/spreadsheets/d/1UVphcCxmG-glGP7xMf-lDQ_QaIR5LFizQ4MXD4FGG8c/edit?gid=1134071999#gid=1134071999&range=A2" },
+      ],
+      skills: ["Google Apps Script", "Google Sheets", "JavaScript", "Dashboard Design", "Spreadsheet Automation" ],
     },
   ],
 
