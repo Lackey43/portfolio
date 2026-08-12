@@ -7,7 +7,7 @@ export const siteConfig = {
     email: "claude_daigan@protonmail.com",
     linkedin: "https://linkedin.com/in/claude-lester-d-a84558288/",
     twitter: "", // Leave empty if none
-    github: "https://github.com/Lackey43", // Update with your actual GitHub if different
+    github: "", // Update with your actual GitHub if different
   },
   aboutMe: `Automation-focused Virtual Assistant with experience in business operations, digital marketing, human resources, and \
 administrative support. Specializes in designing AI-powered workflow automations using n8n, Python, Google Apps Script, LangChain, \
@@ -248,21 +248,21 @@ in fast-paced environments.`,
 
   certifications: [
     {
-      title: "Foundation: Introduction to LangGraph – Python",
+      title: "LangGraph – Python",
       issuer: "LangChain Academy",
       date: "June 2026",
       image:"langgraph.jpg",
       link: "https://academy.langchain.com/certificates/is2wwkufja",
     },
     {
-      title: "Foundation: Introduction to LangChain – Python",
+      title: "LangChain – Python",
       issuer: "LangChain Academy",
       date: "June 2026",
       image:"langchain.jpg",
       link: "https://academy.langchain.com/certificates/82s1v5yebv",
     },
     {
-      title: "Foundation: Introduction to Deep Agents",
+      title: "Deep Agents",
       issuer: "LangChain Academy",
       date: "July 2026",
       image:"deepagents.png",
@@ -284,28 +284,28 @@ in fast-paced environments.`,
     },
   
     {
-      title: "Introduction to Software Engineering",
+      title: "Software Engineering",
       issuer: "IBM",
       date: "July 2025",
       image:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~R1HUNUCV3KVG/CERTIFICATE_LANDING_PAGE~R1HUNUCV3KVG.jpeg",
       link: "https://www.coursera.org/account/accomplishments/verify/R1HUNUCV3KVG",
     },
     {
-      title: "Introduction to Agile Development and Scrum",
+      title: "Agile Development and Scrum",
       issuer: "IBM",
       date: "July 2025",
       image:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~NKMTPH4ZAO5I/CERTIFICATE_LANDING_PAGE~NKMTPH4ZAO5I.jpeg",
       link: "https://www.coursera.org/account/accomplishments/verify/NKMTPH4ZAO5I",
     },    
     {
-      title: "Introduction to Cloud Computing",
+      title: "Cloud Computing",
       issuer: "IBM",
       date: "July 2025",
       image:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~C8ZRIJSZ2RLX/CERTIFICATE_LANDING_PAGE~C8ZRIJSZ2RLX.jpeg",
       link: "https://www.coursera.org/account/accomplishments/verify/C8ZRIJSZ2RLX",
     },   
     {
-      title: "Introduction to Devops",
+      title: "Devops",
       issuer: "IBM",
       date: "July 2025",
       image:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~WH57YOSQKR3A/CERTIFICATE_LANDING_PAGE~WH57YOSQKR3A.jpeg",
