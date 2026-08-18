@@ -100,7 +100,7 @@ in fast-paced environments.`,
       description: "A powerful RAG-powered AI chatbot that retrieves accurate information from uploaded documents. Demonstrated using the full Lord of the Rings book collection as the knowledge base. Ideal for customer support, internal knowledge bases, employee training, and domain-specific Q&A systems.",
 
       links: [
-      { name: "View Chatbot Demo", url: "https://lotr-rag-chatbot-claudai.streamlit.app/" },
+      { name: "View Chatbot Demo", url: "https://lackey43.duckdns.org/streamlit3/" },
       ], 
       skills: [
         "Langchain", "Python", "Streamlit" , "Retrieval-Augmented Generation", "Postgresql",
