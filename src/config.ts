@@ -9,12 +9,7 @@ export const siteConfig = {
     twitter: "", // Leave empty if none
     github: "", // Update with your actual GitHub if different
   },
-  aboutMe: `Automation-focused Virtual Assistant with experience in business operations, digital marketing, human resources, and \
-administrative support. Specializes in designing AI-powered workflow automations using n8n, Python, Google Apps Script, LangChain, \
-LangGraph, and DeepAgents to streamline processes, eliminate repetitive tasks, and improve operational efficiency. Proficient in \
-Google Workspace, CRM systems, email marketing, social media management, and data management. Recognized for quickly learning new \
-technologies, optimizing business workflows, and supporting remote teams with reliable, detail-oriented, and results-driven execution \
-in fast-paced environments.`,
+  aboutMe: `Versatile professional with a strong foundation in business operations, banking, human resources, and digital marketing. Proven expertise in streamlining business workflows, automating data entry using Python and n8n, and managing administrative operations across banking (Asia United Bank), HR (Qualfon, Leyeco V), procurement (Keitech), and digital marketing (Outsourced Doers). Skilled at combining operational acumen with modern technical solutions to drive efficiency and accuracy.`,
 
   skills: [
     "AI Workflow Automation (n8n)",
