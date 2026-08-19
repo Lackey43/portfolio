@@ -12,17 +12,16 @@ export const siteConfig = {
   aboutMe: `Versatile professional with a strong foundation in business operations, banking, human resources, and digital marketing. Proven expertise in streamlining business workflows, automating data entry using Python and n8n, and managing administrative operations across banking (Asia United Bank), HR (Qualfon, Leyeco V), procurement (Keitech), and digital marketing (Outsourced Doers). Skilled at combining operational acumen with modern technical solutions to drive efficiency and accuracy.`,
 
   skills: [
-    "AI Workflow Automation (n8n)",
+    "AI Workflow & Process Automation (n8n)",
     "Python Automation & Scripting",
-    "Google Apps Script & Javascript",
-    "DeepAgents, LangChain & LangGraph",
-    "Business Process Automation",
-    "CRM Management (Keap)",
-    "Google Workspace",
-    "Advanced Google Sheets",
-    "Digital Marketing Automation",
-    "Workflow Optimization",
-    "Marketing Design & Canva"
+    "AI Agent Development (LangChain, LangGraph & DeepAgents)",
+    "Business Process Optimization",
+    "Advanced Google Sheets & Data Management",
+    "CRM Administration & Management (Keap)",
+    "Digital Marketing & Campaign Execution",
+    "HR Administration & Compliance Support",
+    "Google Workspace & Cloud Admin",
+    "Agile & Project Management Fundamentals",
   ],
   marketingCreatives: [
   {
