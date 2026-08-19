@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Claude Daigan",
-  title: "Automation Virtual Assistant",
+  title: "Operations & Automation Specialist",
   description: "Automation-focused Virtual Assistant specializing in AI workflows, n8n, Python, and business process optimization",
   accentColor: "#2563eb",
   social: {
