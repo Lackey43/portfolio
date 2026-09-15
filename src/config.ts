@@ -81,7 +81,7 @@ export const siteConfig = {
       description: "An AI-powered outreach automation tool that researches businesses and generates personalized marketing emails in minutes. Simply provide a business website URL (or company information), and the assistant automatically analyzes the company's online presence, identifies key insights, and creates a tailored outreach email. For demonstration purposes, the generated email is sent directly to the email address you provide, allowing you to review the final result exactly as a prospective client would receive it.",
 
       links: [
-      { name: "View Chatbot Demo", url: "https://lackey43.duckdns.org/streamlit2/" },
+      { name: "View Chatbot Demo", url: "https://marketing-ai-assistant-382c6678d7a1.herokuapp.com" },
       ], 
       skills: [
         "Deep Agents", "Python", "Streamlit" ,"Docker", "Email Automation", "Web Search", "Postgresql",
@@ -94,7 +94,7 @@ export const siteConfig = {
       description: "A powerful RAG-powered AI chatbot that retrieves accurate information from uploaded documents. Demonstrated using the full Lord of the Rings book collection as the knowledge base. Ideal for customer support, internal knowledge bases, employee training, and domain-specific Q&A systems.",
 
       links: [
-      { name: "View Chatbot Demo", url: "https://lackey43.duckdns.org/streamlit3/" },
+      { name: "View Chatbot Demo", url: "https://ai-chatbot-rag-b539488482c0.herokuapp.com/" },
       ], 
       skills: [
         "Langchain", "Python", "Streamlit" , "Retrieval-Augmented Generation", "Postgresql",
@@ -106,7 +106,7 @@ export const siteConfig = {
       description: 
       "An automated recruitment solution that streamlines the initial applicant screening process. Candidates submit their name, email, and resume through a simple form. \nA self-hosted n8n workflow (running on Oracle Cloud via Docker) intelligently parses the resume using Google Gemini, extracts key information, and automatically updates a Google Sheets dashboard with a structured summary and an AI-generated suitability score (1–10) based on predefined job requirements. \nThis system significantly reduces manual HR workload, improves screening consistency, and enables faster, data-driven hiring decisions.",
       links: [
-        { name: "View Applicant Form", url: "https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e" },
+        { name: "View Applicant Form", url: "https://hr-screening-system-a5d966d3e571.herokuapp.com/" },
         { name: "View Google Sheets", url: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/" },
       ],
       skills: ["n8n", "Google Sheets", "Docker", "Google Gemini API"],
