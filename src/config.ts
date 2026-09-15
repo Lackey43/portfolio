@@ -106,7 +106,7 @@ export const siteConfig = {
       description: 
       "An automated recruitment solution that streamlines the initial applicant screening process. Candidates submit their name, email, and resume through a simple form. \nA self-hosted n8n workflow (running on Oracle Cloud via Docker) intelligently parses the resume using Google Gemini, extracts key information, and automatically updates a Google Sheets dashboard with a structured summary and an AI-generated suitability score (1–10) based on predefined job requirements. \nThis system significantly reduces manual HR workload, improves screening consistency, and enables faster, data-driven hiring decisions.",
       links: [
-        { name: "View Applicant Form", url: "https://hr-screening-system-a5d966d3e571.herokuapp.com/" },
+        { name: "View Applicant Form", url: "https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e" },
         { name: "View Google Sheets", url: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/" },
       ],
       skills: ["n8n", "Google Sheets", "Docker", "Google Gemini API"],
@@ -116,7 +116,7 @@ export const siteConfig = {
       description: 
       "An AI-powered resume screening platform that automates candidate evaluation against job requirements. Users upload a resume and provide a target job description, and the system analyzes qualifications using an LLM to generate a compatibility score, identify key strengths and skill gaps, and deliver actionable recommendations. Built with LangGraph to orchestrate the evaluation workflow, providing recruiters with faster, more consistent, and data-driven hiring insights.",
       links: [
-        { name: "View Demo", url: "https://lackey43.duckdns.org/streamlit/" },
+        { name: "View Demo", url: "https://hr-screening-system-a5d966d3e571.herokuapp.com/" },
       ],
       skills: ["Langgraph", "Streamlit", "Docker", "Google Gemini API"],
     },
