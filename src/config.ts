@@ -106,8 +106,8 @@ export const siteConfig = {
       description: 
       "An automated recruitment solution that streamlines the initial applicant screening process. Candidates submit their name, email, and resume through a simple form. \nA self-hosted n8n workflow (running on Oracle Cloud via Docker) intelligently parses the resume using Google Gemini, extracts key information, and automatically updates a Google Sheets dashboard with a structured summary and an AI-generated suitability score (1–10) based on predefined job requirements. \nThis system significantly reduces manual HR workload, improves screening consistency, and enables faster, data-driven hiring decisions.",
       links: [
-        { name: "View Applicant Form", url: "https://lackey43.duckdns.org/form/2a87705d-8ba1-41f1-80ef-85f364ce253e" },
-        { name: "View Google Sheets", url: "https://docs.google.com/spreadsheets/d/1OsGCgyeG76Og5sORQTi4N3ha7nxmYKnzqleaO5o13C4/" },
+        { name: "View Applicant Form", url: "https://docs.google.com/forms/d/e/1FAIpQLSfkiwXcdt_egX2P9LNllo4Fx4tyQt15S-WauPWFTRPr8SU7qA/viewform" },
+        { name: "View Google Sheets", url: "https://docs.google.com/spreadsheets/d/1yLAjgFScdBf5j-3_XqYWqsB6O7V6jH-N18ziLAlp66U/edit?usp=sharing" },
       ],
       skills: ["n8n", "Google Sheets", "Docker", "Google Gemini API"],
     },
