@@ -81,7 +81,7 @@ export const siteConfig = {
       description: "An AI-powered outreach automation tool that researches businesses and generates personalized marketing emails in minutes. Simply provide a business website URL (or company information), and the assistant automatically analyzes the company's online presence, identifies key insights, and creates a tailored outreach email. For demonstration purposes, the generated email is sent directly to the email address you provide, allowing you to review the final result exactly as a prospective client would receive it.",
 
       links: [
-      { name: "View Chatbot Demo", url: "https://marketing-ai-assistant-382c6678d7a1.herokuapp.com" },
+      { name: "View Chatbot Demo", url: "https://marketing-ai-assistant.lackey43.duckdns.org/" },
       ], 
       skills: [
         "Deep Agents", "Python", "Streamlit" ,"Docker", "Email Automation", "Web Search", "Postgresql",
