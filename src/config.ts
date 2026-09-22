@@ -94,7 +94,7 @@ export const siteConfig = {
       description: "A powerful RAG-powered AI chatbot that retrieves accurate information from uploaded documents. Demonstrated using the full Lord of the Rings book collection as the knowledge base. Ideal for customer support, internal knowledge bases, employee training, and domain-specific Q&A systems.",
 
       links: [
-      { name: "View Chatbot Demo", url: "https://ai-chatbot-rag-b539488482c0.herokuapp.com/" },
+      { name: "View Chatbot Demo", url: "https://chatbot-with-rag.lackey43.duckdns.org/" },
       ], 
       skills: [
         "Langchain", "Python", "Streamlit" , "Retrieval-Augmented Generation", "Postgresql",
