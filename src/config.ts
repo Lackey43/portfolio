@@ -267,7 +267,7 @@ export const siteConfig = {
       issuer: "Udemy",
       date: "August 2020",
       image:"udemy.jpg",
-      link: "udemy.jpg",
+      link: "https://drive.google.com/file/d/1PE71nnnq_YrvmHUBWOac6xnKDtPI9Gdk/view?usp=sharing",
     },
     {
       title: "Cybersecurty",
