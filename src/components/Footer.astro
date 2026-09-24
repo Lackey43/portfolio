@@ -73,6 +73,7 @@ const hasCertificates = siteConfig.certifications && siteConfig.certifications.l
               ></path></svg
             >
           </a>
+          {  siteConfig.social?.github && (
           <a
             href={siteConfig.social.github}
             target="_blank"
@@ -97,6 +98,8 @@ const hasCertificates = siteConfig.certifications && siteConfig.certifications.l
               ></path></svg
             >
           </a>
+          )
+        }
         </div>
       </div>
 
