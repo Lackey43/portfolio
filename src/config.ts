@@ -266,8 +266,8 @@ export const siteConfig = {
       title: "Complete Python Bootcamp",
       issuer: "Udemy",
       date: "August 2020",
-      image:"https://udemy-certificate.s3.amazonaws.com/image/UC-a6c68572-105c-4369-b609-f787e7283756.jpg",
-      link: "https://udemy-certificate.s3.amazonaws.com/image/UC-a6c68572-105c-4369-b609-f787e7283756.jpg",
+      image:"udemy.jpg",
+      link: "udemy.jpg",
     },
     {
       title: "Cybersecurty",
