@@ -3,6 +3,7 @@ export const siteConfig = {
   title: "Operations & Automation Specialist",
   description: "Automation-focused Virtual Assistant specializing in AI workflows, n8n, Python, and business process optimization",
   accentColor: "#2563eb",
+  availability: "Open to new opportunities",
   social: {
     email: "claude_daigan@protonmail.com",
     linkedin: "https://linkedin.com/in/claude-lester-d-a84558288/",
@@ -270,7 +271,7 @@ export const siteConfig = {
       link: "https://drive.google.com/file/d/1PE71nnnq_YrvmHUBWOac6xnKDtPI9Gdk/view?usp=sharing",
     },
     {
-      title: "Cybersecurty",
+      title: "Cybersecurity",
       issuer: "Zsecurity",
       date: "May 2020",
       image:"zsecurity.png",

@@ -1,86 +1,84 @@
 ---
 import { siteConfig } from "../config";
+import SectionHeading from "./SectionHeading.astro";
 
 const hasCreatives =
-  siteConfig.marketingCreatives &&
-  siteConfig.marketingCreatives.length > 0;
+  siteConfig.marketingCreatives && siteConfig.marketingCreatives.length > 0;
 ---
 
 {
   hasCreatives && (
-    <section id="marketing-creatives" class="p-8 sm:p-12 md:p-16 lg:p-24">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-
-        <div class="lg:col-span-4">
-          <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
-            Marketing Creatives
-          </h2>
-
-          <div
-            class="w-[75px] h-[5px] mt-2 rounded-full"
-            style={`background-color:${siteConfig.accentColor}`}
-          />
-        </div>
-
-        <div class="lg:col-span-8">
-
-          <div class="grid sm:grid-cols-2 gap-8">
-
-            {siteConfig.marketingCreatives.map((creative) => (
-
-              <a
-                href={creative.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-              >
-
-                <div class="overflow-hidden">
-                  <img
-                    src={creative.image}
-                    alt={creative.title}
-                    class="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
-                </div>
-
-                <div class="p-6">
-
-                  <p
-                    class="text-sm font-medium"
-                    style={`color:${siteConfig.accentColor}`}
-                  >
-                    {creative.category}
-                  </p>
-
-                  <h3 class="mt-2 text-xl font-bold text-gray-900">
-                    {creative.title}
-                  </h3>
-
-                  <div class="flex flex-wrap gap-2 mt-4">
-
-                    {creative.tools.map((tool) => (
-
-                      <span class="px-3 py-1 rounded-lg bg-gray-900 text-white text-sm">
-
-                        {tool}
-
-                      </span>
-
-                    ))}
-
-                  </div>
-
-                </div>
-
-              </a>
-
-            ))}
-
+    <section
+      id="marketing-creatives"
+      class="bg-white px-8 py-20 sm:px-12 sm:py-24 md:px-16 lg:px-24 lg:py-32"
+    >
+      <div class="mx-auto max-w-7xl">
+        <div class="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
+          <div class="lg:col-span-4">
+            <SectionHeading
+              eyebrow="Marketing"
+              title="Marketing Creatives"
+              accent={siteConfig.accentColor}
+            />
           </div>
 
-        </div>
+          <div class="lg:col-span-8">
+            <div class="grid gap-6 sm:grid-cols-2 sm:gap-8">
+              {siteConfig.marketingCreatives.map((creative) => (
+                <a
+                  href={creative.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group block overflow-hidden rounded-2xl border border-gray-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl"
+                >
+                  <div class="relative overflow-hidden">
+                    <img
+                      src={creative.image}
+                      alt={creative.title}
+                      class="aspect-video w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-gray-800 backdrop-blur">
+                      {creative.category}
+                    </span>
+                    <div class="pointer-events-none absolute inset-0 bg-linear-to-t from-gray-900/70 via-gray-900/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <span class="absolute bottom-4 left-4 inline-flex items-center gap-1.5 text-sm font-semibold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                      View work
+                      <svg
+                        class="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
+                      </svg>
+                    </span>
+                  </div>
 
+                  <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900">
+                      {creative.title}
+                    </h3>
+
+                    <div class="mt-3 flex flex-wrap gap-2">
+                      {creative.tools.map((tool) => (
+                        <span class="rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-600">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

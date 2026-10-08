@@ -2,103 +2,212 @@
 import { siteConfig } from "../config";
 
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-const hasmarketingCreatives = siteConfig.marketingCreatives && siteConfig.marketingCreatives.length > 0;
+const hasmarketingCreatives =
+  siteConfig.marketingCreatives && siteConfig.marketingCreatives.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
-const hasCertificates = siteConfig.certifications && siteConfig.certifications.length > 0
+const hasCertificates =
+  siteConfig.certifications && siteConfig.certifications.length > 0;
+
+const links = [
+  { href: "#about", label: "About", show: true },
+  { href: "#projects", label: "Projects", show: hasProjects },
+  {
+    href: "#marketing-creatives",
+    label: "Creatives",
+    show: hasmarketingCreatives,
+  },
+  { href: "#experience", label: "Experience", show: hasExperience },
+  { href: "#education", label: "Education", show: hasEducation },
+  { href: "#certificates", label: "Certificates", show: hasCertificates },
+].filter((link) => link.show);
 ---
 
-<header
-  id="header"
-  class="fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300"
->
-  <nav class="max-w-7xl mx-auto px-8 py-4">
-    <ul class="flex items-center gap-8 justify-center">
-      <li>
-        <a
-          href="#about"
-          class="text-gray-700 hover:text-black transition-colors font-medium"
-        >
-          About
-        </a>
-      </li>
+<header id="header" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+  <div
+    id="scroll-progress"
+    class="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0"
+    style={`background-color: ${siteConfig.accentColor}`}
+  >
+  </div>
+
+  <nav
+    class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-12 lg:px-24"
+  >
+    <a
+      href="#hero"
+      class="inline-flex items-center gap-2 text-lg font-extrabold tracking-tight text-gray-900"
+    >
+      <span
+        class="inline-block h-2.5 w-2.5 rounded-full"
+        style={`background-color: ${siteConfig.accentColor}`}
+      ></span>
+      {siteConfig.name}
+    </a>
+
+    <!-- Desktop navigation -->
+    <ul class="hidden items-center gap-1 md:flex">
       {
-        hasProjects && (
+        links.map((link) => (
           <li>
             <a
-              href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              href={link.href}
+              data-nav
+              class="rounded-full px-3.5 py-2 text-sm font-medium text-gray-600 transition-colors hover:text-gray-900"
             >
-              Projects
+              {link.label}
             </a>
           </li>
-        )
+        ))
       }
       {
-        hasmarketingCreatives && (
-          <li>
+        siteConfig.social?.email && (
+          <li class="ml-2">
             <a
-              href="#marketing-creatives"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              href={`mailto:${siteConfig.social.email}`}
+              class="inline-flex items-center gap-2 rounded-full bg-gray-900 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-gray-700"
             >
-              Creatives
-            </a>
-          </li>
-        )
-      }
-      {
-        hasExperience && (
-          <li>
-            <a
-              href="#experience"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Experience
-            </a>
-          </li>
-        )
-      }
-      {
-        hasEducation && (
-          <li>
-            <a
-              href="#education"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Education
-            </a>
-          </li>
-        )
-      }    
-      {
-        hasCertificates && (
-          <li>
-            <a
-              href="#certificates"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Certificates
+              Contact me
             </a>
           </li>
         )
       }
     </ul>
+
+    <!-- Mobile menu button -->
+    <button
+      id="menu-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      class="inline-flex flex-col items-center justify-center gap-1.5 p-2 md:hidden"
+    >
+      <span class="h-0.5 w-6 rounded bg-gray-800"></span>
+      <span class="h-0.5 w-6 rounded bg-gray-800"></span>
+      <span class="h-0.5 w-6 rounded bg-gray-800"></span>
+    </button>
   </nav>
+
+  <!-- Mobile navigation -->
+  <div
+    id="mobile-menu"
+    class="hidden border-t border-gray-200 bg-white/95 backdrop-blur md:hidden"
+  >
+    <ul class="mx-auto flex max-w-7xl flex-col gap-1 px-6 py-4 sm:px-12 lg:px-24">
+      {
+        links.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="block rounded-lg px-3 py-3 text-base font-medium text-gray-700 transition-colors hover:bg-gray-100"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))
+      }
+      {
+        siteConfig.social?.email && (
+          <li>
+            <a
+              href={`mailto:${siteConfig.social.email}`}
+              class="mt-2 block rounded-lg bg-gray-900 px-3 py-3 text-center text-base font-semibold text-white"
+            >
+              Contact me
+            </a>
+          </li>
+        )
+      }
+    </ul>
+  </div>
 </header>
 
 <script>
-  window.addEventListener("scroll", () => {
-    const header = document.getElementById("header");
-    if (window.scrollY > 100) {
-      header?.classList.add("bg-white/80", "backdrop-blur-sm");
-    } else {
-      header?.classList.remove("bg-white/80", "backdrop-blur-sm");
-    }
-  });
-</script>
+  const header = document.getElementById("header");
+  const toggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const progress = document.getElementById("scroll-progress");
 
-<style>
-  html {
-    scroll-behavior: smooth;
+  const onScroll = () => {
+    if (window.scrollY > 20) {
+      header?.classList.add(
+        "bg-white/80",
+        "backdrop-blur-md",
+        "shadow-sm",
+        "border-b",
+        "border-gray-100",
+      );
+    } else {
+      header?.classList.remove(
+        "bg-white/80",
+        "backdrop-blur-md",
+        "shadow-sm",
+        "border-b",
+        "border-gray-100",
+      );
+    }
+
+    if (progress) {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - doc.clientHeight;
+      const ratio = max > 0 ? doc.scrollTop / max : 0;
+      progress.style.transform = `scaleX(${ratio})`;
+    }
+  };
+
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll, { passive: true });
+
+  const setMenu = (open) => {
+    mobileMenu?.classList.toggle("hidden", !open);
+    toggle?.setAttribute("aria-expanded", String(open));
+  };
+
+  toggle?.addEventListener("click", () => {
+    setMenu(mobileMenu?.classList.contains("hidden"));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setMenu(false);
+  });
+
+  mobileMenu?.querySelectorAll("a").forEach((link) =>
+    link.addEventListener("click", () => setMenu(false)),
+  );
+
+  // Scroll spy: highlight the navigation link for the section in view.
+  const navLinks = Array.from(document.querySelectorAll("#header [data-nav]"));
+  const spySections = navLinks
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter((el) => el);
+
+  const setActive = (id) => {
+    navLinks.forEach((link) => {
+      const active = link.getAttribute("href") === `#${id}`;
+      link.classList.toggle("text-gray-900", active);
+      link.classList.toggle("text-gray-600", !active);
+      if (active) {
+        link.setAttribute("aria-current", "true");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  };
+
+  if ("IntersectionObserver" in window && spySections.length > 0) {
+    const spy = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActive(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: "-45% 0px -50% 0px" },
+    );
+
+    spySections.forEach((section) => spy.observe(section));
   }
-</style>
+</script>
