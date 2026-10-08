@@ -78,7 +78,7 @@ export const siteConfig = {
 
   projects: [
     {
-      name: "Marketing AI Assistant",
+      name: "Outreach Studio",
       description: "An AI-powered outreach automation tool that researches businesses and generates personalized marketing emails in minutes. Simply provide a business website URL (or company information), and the assistant automatically analyzes the company's online presence, identifies key insights, and creates a tailored outreach email. For demonstration purposes, the generated email is sent directly to the email address you provide, allowing you to review the final result exactly as a prospective client would receive it.",
 
       links: [
