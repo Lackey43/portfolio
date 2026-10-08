@@ -113,7 +113,7 @@ export const siteConfig = {
       skills: ["n8n", "Google Sheets", "Docker", "Google Gemini API"],
     },
     {
-      name: "AI Resume Screening & Candidate Evaluation Platform",
+      name: "Resume Fit Analyzer",
       description: 
       "An AI-powered resume screening platform that automates candidate evaluation against job requirements. Users upload a resume and provide a target job description, and the system analyzes qualifications using an LLM to generate a compatibility score, identify key strengths and skill gaps, and deliver actionable recommendations. Built with LangGraph to orchestrate the evaluation workflow, providing recruiters with faster, more consistent, and data-driven hiring insights.",
       links: [
