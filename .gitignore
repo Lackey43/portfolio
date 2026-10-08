@@ -26,3 +26,6 @@ portfolio.sublime-workspace
 .idea/
 
 gitCommit.ps1
+
+# local agent guidance (kept out of the shared repo)
+AGENTS.md

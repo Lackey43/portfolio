@@ -91,7 +91,7 @@ export const siteConfig = {
     },
     
     {
-      name: "AI Chatbot with RAG",
+      name: "LOTR RAG",
       description: "A powerful RAG-powered AI chatbot that retrieves accurate information from uploaded documents. Demonstrated using the full Lord of the Rings book collection as the knowledge base. Ideal for customer support, internal knowledge bases, employee training, and domain-specific Q&A systems.",
 
       links: [
