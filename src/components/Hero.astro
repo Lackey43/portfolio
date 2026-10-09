@@ -30,16 +30,14 @@ const availability = siteConfig.availability;
       {
         availability && (
           <span class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/70 px-3.5 py-1.5 text-xs font-medium text-gray-700 backdrop-blur">
-            <span class="relative flex h-2 w-2">
-              <span
-                class="absolute inline-flex h-full w-full animate-ping rounded-full opacity-60"
-                style={`background-color: ${siteConfig.accentColor}`}
-              />
-              <span
-                class="relative inline-flex h-2 w-2 rounded-full"
-                style={`background-color: ${siteConfig.accentColor}`}
-              />
-            </span>
+          <span class="relative flex h-2 w-2">
+          <span
+            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-60"
+          />
+          <span
+            class="relative inline-flex h-2 w-2 rounded-full bg-green-500"
+          />
+        </span>
             {availability}
           </span>
         )
