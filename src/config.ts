@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Operations & Automation Specialist",
   description: "Automation-focused Virtual Assistant specializing in AI workflows, n8n, Python, and business process optimization",
   accentColor: "#2563eb",
-  availability: "Open to new opportunities",
+  availability: "Available",
   social: {
     email: "claude_daigan@protonmail.com",
     linkedin: "https://linkedin.com/in/claude-lester-d-a84558288/",
@@ -77,6 +77,19 @@ export const siteConfig = {
 ],
 
   projects: [
+    {
+      name: "Recruitment Pipeline Dashboard",
+      description: "An applicant tracking system demo you can actually use: open a requisition, take applications through a public form (including a PDF resume upload), score resumes against the job description, then move candidates through a kanban pipeline with interview scheduling, decision notes and a full audit trail.",
+
+      links: [
+      { name: "View Dashboard Demo", url: "https://hr-recruitment-pipeline.lackey43.duckdns.org/" },
+      { name: "View Applicantion Form", url: "https://hr-recruitment-pipeline.lackey43.duckdns.org/apply" },
+      ], 
+      skills: [
+        "Langgraph", "Python", "FASTApi" ,"Docker"  , "Postgresql",
+        "Google Gemini API",
+      ],
+    },
     {
       name: "Outreach Studio",
       description: "An AI-powered outreach automation tool that researches businesses and generates personalized marketing emails in minutes. Simply provide a business website URL (or company information), and the assistant automatically analyzes the company's online presence, identifies key insights, and creates a tailored outreach email. For demonstration purposes, the generated email is sent directly to the email address you provide, allowing you to review the final result exactly as a prospective client would receive it.",

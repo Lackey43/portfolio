@@ -8,22 +8,22 @@ const hasCertificates =
 
 {
   hasCertificates && (
-    <section
-      id="certificates"
-      class="bg-gray-50 px-8 py-20 sm:px-12 sm:py-24 md:px-16 lg:px-24 lg:py-32"
-    >
-      <div class="mx-auto max-w-7xl">
-        <div class="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
-          <div class="lg:col-span-4">
-            <SectionHeading
-              eyebrow="Credentials"
-              title="Certificates"
-              accent={siteConfig.accentColor}
+    <section id="certificates" class="p-8 sm:p-12 md:p-16 lg:p-24">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+
+        <div class="lg:col-span-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-gray-900">
+          Certificates
+        </h2>
+
+            <div
+              class="w-[75px] h-[5px] mt-2 rounded-full"
+              style={`background-color: ${siteConfig.accentColor}`}
             />
           </div>
-
           <div class="lg:col-span-8">
-            <div class="grid gap-6 sm:grid-cols-2 sm:gap-8">
+          {/* Right Content */}
+            <div class="grid sm:grid-cols-2 gap-8">
               {siteConfig.certifications.map((cert) => (
                 <a
                   href={cert.link}
