@@ -66,8 +66,10 @@ const availability = siteConfig.availability;
           social.email && (
             <a
               href={`mailto:${social.email}`}
-              class="inline-flex items-center gap-2 rounded-full bg-gray-900 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-gray-700"
+              class="email-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl active:scale-95"
+              style={`background-color: ${siteConfig.accentColor}`}
             >
+
               <svg
                 class="h-4 w-4"
                 viewBox="0 0 24 24"
