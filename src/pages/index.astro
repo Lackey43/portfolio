@@ -40,13 +40,17 @@ const pageTitle = `${siteConfig.name} | ${siteConfig.title}`;
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={siteConfig.description} />
     <meta name="twitter:image" content={ogImage} />
-
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={siteConfig.description} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
+
     />
+
+    <title>{siteConfig.name} - {siteConfig.title}</title>
   </head>
   <body
     class="bg-white text-gray-900 antialiased"
