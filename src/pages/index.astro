@@ -13,7 +13,6 @@ import "../styles/global.css";
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL("profile.png", canonical).href;
-const pageTitle = `${siteConfig.name} | ${siteConfig.title}`;
 ---
 
 <html lang="en">
@@ -24,7 +23,7 @@ const pageTitle = `${siteConfig.name} | ${siteConfig.title}`;
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="apple-touch-icon" href="profile.png" />
 
-    <title>{pageTitle}</title>
+    <title>{siteConfig.name} - {siteConfig.title}</title>
     <meta name="description" content={siteConfig.description} />
     <link rel="canonical" href={canonical} />
     <meta name="theme-color" content="#ffffff" />
@@ -50,7 +49,6 @@ const pageTitle = `${siteConfig.name} | ${siteConfig.title}`;
 
     />
 
-    <title>{siteConfig.name} - {siteConfig.title}</title>
   </head>
   <body
     class="bg-white text-gray-900 antialiased"
