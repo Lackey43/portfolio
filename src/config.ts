@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Claude Daigan",
   title: "Operations & Automation Specialist",
-  description: "Automation-focused Virtual Assistant specializing in AI workflows, n8n, Python, and business process optimization",
+  description: "I build AI and Python workflows that remove manual data entry, screening and reporting.",
   accentColor: "#2563eb",
   availability: "Available",
   social: {
@@ -10,7 +10,7 @@ export const siteConfig = {
     twitter: "", // Leave empty if none
     github: "", // Update with your actual GitHub if different
   },
-  aboutMe: `Versatile professional with a strong foundation in business operations, banking, human resources, and digital marketing. Proven expertise in streamlining business workflows, automating data entry using Python and n8n, and managing administrative operations across banking (Asia United Bank), HR (Qualfon, Leyeco V), procurement (Keitech), and digital marketing (Outsourced Doers). Skilled at combining operational acumen with modern technical solutions to drive efficiency and accuracy.`,
+  aboutMe: `Operations and automation specialist. I have worked in banking, HR, procurement and digital marketing, which is where I learned how much of the work is repetitive. Now I remove that repetition with Python, n8n and AI agents: data entry, applicant screening, reporting and outreach. I care about the unglamorous details, because that is where automation either holds up or quietly breaks.`,
 
   skills: [
     "AI Workflow & Process Automation (n8n)",
@@ -24,7 +24,81 @@ export const siteConfig = {
     "Google Workspace & Cloud Admin",
     "Agile & Project Management Fundamentals",
   ],
-  marketingCreatives: [
+  marketingCreatives: [  {
+    title: "Chido Cafe — Taco Night",
+    category: "Instagram Post · Concept",
+    image: "images/creatives/chido-taco-night.jpg",
+    link: "images/creatives/chido-taco-night.jpg",
+    tools: ["Nano Banana 2", "Prompt Design"],
+  },
+  {
+    title: "Dalareich — Bean to Bar",
+    category: "Instagram Post · Concept",
+    image: "images/creatives/dalareich-bean-to-bar.jpg",
+    link: "images/creatives/dalareich-bean-to-bar.jpg",
+    tools: ["Nano Banana 2", "Prompt Design"],
+  },
+  {
+    title: "Metroland — Four Stops, One Day",
+    category: "Instagram Post · Concept",
+    image: "images/creatives/metroland-four-stops.jpg",
+    link: "images/creatives/metroland-four-stops.jpg",
+    tools: ["Nano Banana 2", "Prompt Design"],
+  },
+  {
+    title: "Chido Cafe — Taco Night cut",
+    category: "Instagram Reel · Concept",
+    video: "videos/chido.mp4",
+    poster: "videos/posters/chido.jpg",
+    link: "videos/chido.mp4",
+    tools: ["Stock Footage", "FFmpeg Edit"],
+  },
+  {
+    title: "Dalareich — Bean to Bar cut",
+    category: "Instagram Reel · Concept",
+    video: "videos/dalareich.mp4",
+    poster: "videos/posters/dalareich.jpg",
+    link: "videos/dalareich.mp4",
+    tools: ["Stock Footage", "FFmpeg Edit"],
+  },
+  {
+    title: "Metroland — Four Stops cut",
+    category: "Instagram Reel · Concept",
+    video: "videos/metroland.mp4",
+    poster: "videos/posters/metroland.jpg",
+    link: "videos/metroland.mp4",
+    tools: ["Stock Footage", "FFmpeg Edit"],
+  },
+  {
+    title: "Casa 2455 — Staycation",
+    category: "Facebook Post · Concept",
+    image: "images/creatives/casa-2455-staycation.jpg",
+    link: "images/creatives/casa-2455-staycation.jpg",
+    tools: ["Nano Banana 2", "Prompt Design"],
+  },
+  {
+    title: "Peanut Kisses — The Hills You Can Eat",
+    category: "Facebook Post · Concept",
+    image: "images/creatives/peanut-kisses-hills.jpg",
+    link: "images/creatives/peanut-kisses-hills.jpg",
+    tools: ["Nano Banana 2", "Prompt Design"],
+  },
+  {
+    title: "Casa 2455 — Staycation cut",
+    category: "Facebook Video · Concept",
+    video: "videos/casa.mp4",
+    poster: "videos/posters/casa.jpg",
+    link: "videos/casa.mp4",
+    tools: ["Stock Footage", "FFmpeg Edit"],
+  },
+  {
+    title: "Peanut Kisses — Hills cut",
+    category: "Facebook Video · Concept",
+    video: "videos/peanut.mp4",
+    poster: "videos/posters/peanut.jpg",
+    link: "videos/peanut.mp4",
+    tools: ["Stock Footage", "FFmpeg Edit"],
+  },
   {
     title: "High-Converting Lead Magnet",
     category: "Lead Magnet",
@@ -83,10 +157,10 @@ export const siteConfig = {
 
       links: [
       { name: "View Dashboard Demo", url: "https://hr-recruitment-pipeline.lackey43.duckdns.org/" },
-      { name: "View Applicantion Form", url: "https://hr-recruitment-pipeline.lackey43.duckdns.org/apply" },
+      { name: "View application form", url: "https://hr-recruitment-pipeline.lackey43.duckdns.org/apply" },
       ], 
       skills: [
-        "Langgraph", "Python", "FASTApi" ,"Docker"  , "Postgresql",
+        "LangGraph", "Python", "FastAPI" ,"Docker"  , "PostgreSQL",
         "Google Gemini API",
       ],
     },
@@ -98,7 +172,7 @@ export const siteConfig = {
       { name: "View Chatbot Demo", url: "https://marketing-ai-assistant.lackey43.duckdns.org/" },
       ], 
       skills: [
-        "Deep Agents", "Python", "Streamlit" ,"Docker", "Email Automation", "Web Search", "Postgresql",
+        "Deep Agents", "Python", "Streamlit" ,"Docker", "Email Automation", "Web Search", "PostgreSQL",
         "Google Gemini API",
       ],
     },
@@ -111,7 +185,7 @@ export const siteConfig = {
       { name: "View Chatbot Demo", url: "https://chatbot-with-rag.lackey43.duckdns.org/" },
       ], 
       skills: [
-        "Langchain", "Python", "Streamlit" , "Retrieval-Augmented Generation", "Postgresql",
+        "LangChain", "Python", "Streamlit" , "Retrieval-Augmented Generation", "PostgreSQL",
         "AI Embeddings",
       ],
     },
@@ -132,7 +206,7 @@ export const siteConfig = {
       links: [
         { name: "View Demo", url: "https://ai-screening-system.lackey43.duckdns.org/" },
       ],
-      skills: ["Langgraph", "Streamlit", "Docker", "Google Gemini API"],
+      skills: ["LangGraph", "Streamlit", "Docker", "Google Gemini API"],
     },
     {
       name: "Trainee Directory Aggregation System",
@@ -233,7 +307,7 @@ export const siteConfig = {
     },
       {
       company: "KEITECH Educational Foundation, Inc.",
-      title: "PROCUREMENT OFFICER",
+      title: "Procurement Officer",
       dateRange: "July 2019 - June 2020",
       bullets: [
         "Improved inventory tracking accuracy.",

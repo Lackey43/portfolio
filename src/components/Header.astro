@@ -36,7 +36,7 @@ const links = [
   >
     <a
       href="#hero"
-      class="inline-flex items-center gap-2 text-lg font-extrabold tracking-tight text-gray-900"
+      class="inline-flex items-center gap-2 text-lg font-extrabold tracking-tight text-slate-900"
     >
       <span
         class="inline-block h-2.5 w-2.5 rounded-full"
@@ -45,15 +45,15 @@ const links = [
       {siteConfig.name}
     </a>
 
-    <!-- Desktop navigation -->
-    <ul class="hidden items-center gap-1 md:flex">
+    <!-- Desktop navigation: six links and the pill need the lg breakpoint -->
+    <ul class="hidden items-center gap-1 lg:flex">
       {
         links.map((link) => (
           <li>
             <a
               href={link.href}
               data-nav
-              class="rounded-full px-3.5 py-2 text-sm font-medium text-gray-600 transition-colors hover:text-gray-900"
+              class="rounded-full px-3.5 py-2 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900"
             >
               {link.label}
             </a>
@@ -62,10 +62,10 @@ const links = [
       }
       {
         siteConfig.social?.email && (
-          <li class="ml-2">
+          <li class="ml-2 hidden xl:block">
             <a
               href={`mailto:${siteConfig.social.email}`}
-              class="email-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl active:scale-95"
+              class="email-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0"
               style={`background-color: ${siteConfig.accentColor}`}
             >
               Contact me
@@ -82,18 +82,18 @@ const links = [
       aria-label="Toggle navigation"
       aria-expanded="false"
       aria-controls="mobile-menu"
-      class="inline-flex flex-col items-center justify-center gap-1.5 p-2 md:hidden"
+      class="inline-flex flex-col items-center justify-center gap-1.5 rounded-md p-2 transition-colors hover:bg-slate-100 lg:hidden"
     >
-      <span class="h-0.5 w-6 rounded bg-gray-800"></span>
-      <span class="h-0.5 w-6 rounded bg-gray-800"></span>
-      <span class="h-0.5 w-6 rounded bg-gray-800"></span>
+      <span class="h-0.5 w-6 rounded bg-slate-800"></span>
+      <span class="h-0.5 w-6 rounded bg-slate-800"></span>
+      <span class="h-0.5 w-6 rounded bg-slate-800"></span>
     </button>
   </nav>
 
   <!-- Mobile navigation -->
   <div
     id="mobile-menu"
-    class="hidden border-t border-gray-200 bg-white/95 backdrop-blur md:hidden"
+    class="hidden border-t border-slate-200 bg-white lg:hidden"
   >
     <ul class="mx-auto flex max-w-7xl flex-col gap-1 px-6 py-4 sm:px-12 lg:px-24">
       {
@@ -101,7 +101,7 @@ const links = [
           <li>
             <a
               href={link.href}
-              class="block rounded-lg px-3 py-3 text-base font-medium text-gray-700 transition-colors hover:bg-gray-100"
+              class="block rounded-lg px-3 py-3 text-base font-medium text-slate-700 transition-colors hover:bg-slate-100"
             >
               {link.label}
             </a>
@@ -110,10 +110,10 @@ const links = [
       }
       {
         siteConfig.social?.email && (
-          <li>
+          <li class="pt-1">
             <a
               href={`mailto:${siteConfig.social.email}`}
-              class="email-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl active:scale-95"
+              class="email-button inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0"
               style={`background-color: ${siteConfig.accentColor}`}
             >
               Contact me
@@ -131,23 +131,19 @@ const links = [
   const mobileMenu = document.getElementById("mobile-menu");
   const progress = document.getElementById("scroll-progress");
 
+  const scrolledClasses = [
+    "bg-white/80",
+    "backdrop-blur-md",
+    "shadow-sm",
+    "border-b",
+    "border-slate-200/70",
+  ];
+
   const onScroll = () => {
     if (window.scrollY > 20) {
-      header?.classList.add(
-        "bg-white/80",
-        "backdrop-blur-md",
-        "shadow-sm",
-        "border-b",
-        "border-gray-100",
-      );
+      header?.classList.add(...scrolledClasses);
     } else {
-      header?.classList.remove(
-        "bg-white/80",
-        "backdrop-blur-md",
-        "shadow-sm",
-        "border-b",
-        "border-gray-100",
-      );
+      header?.classList.remove(...scrolledClasses);
     }
 
     if (progress) {
@@ -188,8 +184,8 @@ const links = [
   const setActive = (id) => {
     navLinks.forEach((link) => {
       const active = link.getAttribute("href") === `#${id}`;
-      link.classList.toggle("text-gray-900", active);
-      link.classList.toggle("text-gray-600", !active);
+      link.classList.toggle("text-slate-900", active);
+      link.classList.toggle("text-slate-600", !active);
       if (active) {
         link.setAttribute("aria-current", "true");
       } else {

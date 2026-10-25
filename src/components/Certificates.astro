@@ -8,51 +8,51 @@ const hasCertificates =
 
 {
   hasCertificates && (
-    <section id="certificates" class="p-8 sm:p-12 md:p-16 lg:p-24">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-
-        <div class="lg:col-span-4">
-        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-gray-900">
-          Certificates
-        </h2>
-
-            <div
-              class="w-[75px] h-[5px] mt-2 rounded-full"
-              style={`background-color: ${siteConfig.accentColor}`}
+    <section id="certificates" class="bg-slate-100 py-20 sm:py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-6 sm:px-12 lg:px-24">
+        <div class="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-16">
+          <div class="lg:col-span-4">
+            <SectionHeading
+              eyebrow="Credentials"
+              title="Certificates"
+              accent={siteConfig.accentColor}
             />
+            <p class="mt-6 hidden max-w-xs text-sm leading-relaxed text-slate-600 lg:block">
+              Open any card for the certificate or its source file.
+            </p>
           </div>
+
           <div class="lg:col-span-8">
-          {/* Right Content */}
-            <div class="grid sm:grid-cols-2 gap-8">
+            <div class="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
               {siteConfig.certifications.map((cert) => (
                 <a
                   href={cert.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl"
+                  class="group flex h-full flex-col overflow-hidden rounded-xl border border-slate-200/80 bg-white transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-lg hover:shadow-slate-900/5"
                 >
-                  <div class="flex items-center justify-center border-b border-gray-100 bg-gray-50 p-4">
+                  <div class="flex items-center justify-center border-b border-slate-100 bg-slate-50 p-3">
                     <img
                       src={cert.image}
                       alt={cert.title}
-                      class="h-40 w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+                      class="h-24 w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
                       loading="lazy"
                     />
                   </div>
 
-                  <div class="flex flex-1 flex-col p-5">
-                    <h3 class="text-base font-semibold text-gray-900">
+                  <div class="flex flex-1 flex-col p-4">
+                    <h3 class="text-sm font-semibold leading-snug text-slate-900">
                       {cert.title}
                     </h3>
 
                     <p
-                      class="mt-1 text-sm font-medium"
+                      class="mt-1 text-xs font-medium"
                       style={`color: ${siteConfig.accentColor}`}
                     >
                       {cert.issuer}
                     </p>
 
-                    <p class="mt-auto pt-3 font-mono text-xs uppercase tracking-wider text-gray-400">
+                    <p class="mt-auto pt-2 font-mono text-xs uppercase tracking-wider text-slate-500">
                       {cert.date}
                     </p>
                   </div>
